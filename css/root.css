@@ -5,17 +5,17 @@
 
 @font-face {
     font-family: UbuntuMedium;
-    src: url(../fonts/ububtumedium.ttf);
+    src: url(../../fonts/ububtumedium.ttf);
 }
 
 @font-face {
     font-family: UbuntuLight;
-    src: url(../fonts/ubuntulight.ttf);
+    src: url(../../fonts/ubuntulight.ttf);
 }
 
 @font-face {
     font-family: UbuntuBold;
-    src: url(../fonts/ubuntubold.ttf);
+    src: url(../../fonts/ubuntubold.ttf);
 }
 
 html, body, head {
