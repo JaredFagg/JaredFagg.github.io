@@ -1,21 +1,21 @@
 @font-face {
     font-family: Couture;
-    src: url(../../jaredfagg.github.io/fonts/couture.otf);
+    src: url(fonts/couture.otf);
 }
 
 @font-face {
     font-family: UbuntuMedium;
-    src: url(../../jaredfagg.github.io/fonts/ububtumedium.ttf);
+    src: url(fonts/ububtumedium.ttf) format('truetype');;
 }
 
 @font-face {
     font-family: UbuntuLight;
-    src: url(../../jaredfagg.github.io/fonts/ubuntulight.ttf);
+    src: url(fonts/ubuntulight.ttf) format('truetype');;
 }
 
 @font-face {
     font-family: UbuntuBold;
-    src: url(../../jaredfagg.github.io/fonts/ubuntubold.ttf);
+    src: url(fonts/ubuntubold.ttf) format('truetype');;
 }
 
 html, body, head {
