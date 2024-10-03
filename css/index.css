@@ -4,7 +4,6 @@
     padding: 1vw;
     top: 0;
     z-index: 5;
-    width:100%;
     margin:0%;
 
 }
@@ -59,4 +58,31 @@
     transition:0.3s;
     background-color: black;
     cursor: pointer;
+}
+
+.IntroductionBanner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-top: 0%;
+    width:100%;
+    height:40vw
+
+}
+
+.IntroBannerText {
+    float: right;
+    font-size: 3vw;
+    color:white
+}
+
+.PortfolioHeadshot {
+    width: 25vw;
+    border-radius: 5vw;
+    float: right;
+    margin-bottom:3%;
+    margin-right: 7%;
+    height: auto;
 }

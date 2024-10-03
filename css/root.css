@@ -26,4 +26,10 @@ html, body, head {
 p, a, h1, div, td {
     font-family: UbuntuMedium;
     font-size: 1vw;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:blue;
 }
