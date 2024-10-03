@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Couture;
+    src: url(//fonts/couture.otf);
+}
+
+@font-face {
+    font-family: UbuntuMedium;
+    src: url(//fonts/ububtumedium.ttf);
+}
+
+@font-face {
+    font-family: UbuntuLight;
+    src: url(//fonts/ubuntulight.ttf);
+}
+
+html, body, head {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    color: blue;
+}
