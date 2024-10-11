@@ -1,0 +1,154 @@
+.NameBar {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 1vw;
+    top: 0;
+    z-index: 5;
+    margin:0%;
+
+}
+
+.NameText {
+    font-family: UbuntuBold;
+    font-size: 2vw;
+}
+
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 25, 25);
+}
+
+.NavItem {
+    transition:0.3s;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+}
+
+.RightNavItem {
+    transition:0.3s;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    text-decoration: none;
+}
+
+.RightNavImage {
+    width: 1vw;
+    vertical-align: middle;
+    padding-right: 0.5vw;
+    height:auto;
+}
+
+.RightNavItem:hover {
+    transition:0.3s;
+    background-color: black;
+    cursor: pointer;
+}
+
+.NavItem:hover {
+    transition:0.3s;
+    background-color: black;
+    cursor: pointer;
+}
+
+.LeftTextContentPanel {
+    width: 100%;
+    height: auto;
+}
+
+.LeftTextLeftPanel {
+    width:50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float: left;
+    background-color: black;
+    /* fix to centering content.... Idk how it works but it does... Sorry. (Also keeps it responsive so all is well!*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.LeftTextLeftPanelContent {
+    padding: 3vw;
+    text-align: left;
+}
+
+.LeftTextRightPanel {
+    width: 50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float:right;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LeftTextRightPanelContent {
+    padding: 2vw;
+}
+
+.LeftTextContentPanel {
+    width: 100%;
+    height: auto;
+}
+
+.RightTextLeftPanel {
+    width:50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float: left;
+    background-color: rgb(25, 25, 25);
+
+}
+
+.RightTextLeftPanelContent {
+    padding: 3vw;
+    text-align: left;
+}
+
+.RightTextRightPanel {
+    width: 50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float:right;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    /* fix to centering content.... Idk how it works but it does... Sorry. (Also keeps it responsive so all is well!*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.RightTextRightPanelContent {
+    padding: 2vw;
+}
+
+
+.SingleImage {
+    width: 30vw;
+    border-radius: 5vw;
+    float: right;
+    /* automatic alignment is not recommended! but works so who cares */
+    margin-top:7%;
+    margin-right: 17%;
+    height: auto;
+}
+
+.Footer {
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-size: 1.2vw;
+}
