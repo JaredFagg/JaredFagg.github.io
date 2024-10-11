@@ -31,5 +31,6 @@ p, a, h1, div, td {
 }
 
 a:hover {
+    transition: 0.3s;
     color:blue;
 }
