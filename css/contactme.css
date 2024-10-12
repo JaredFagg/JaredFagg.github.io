@@ -1,99 +1,54 @@
-.NameBar {
-    background-color: rgb(25, 25, 25);
-    color: white;
-    padding: 1vw;
-    top: 0;
-    z-index: 5;
-    margin:0%;
-
+.OverlayForm {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-image: linear-gradient(to right, black , rgb(25,25,25));
 }
 
-.NameText {
+.ContactMeForm {
+    text-align: left;
+    width:40%;
+    padding:3vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.closeForm {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor:pointer;
+}
+
+.ContactMeHeading {
     font-family: UbuntuBold;
     font-size: 2vw;
 }
 
-.NavBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(25, 25, 25);
-}
-
-.NavItem {
-    transition:0.3s;
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1vw;
-    text-decoration: none;
-}
-
-.RightNavItem {
-    transition:0.3s;
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1vw;
-    text-decoration: none;
-}
-
-.RightNavImage {
-    width: 1vw;
-    vertical-align: middle;
-    padding-right: 0.5vw;
-    height:auto;
-}
-
-.RightNavItem:hover {
-    transition:0.3s;
-    background-color: black;
-    cursor: pointer;
-}
-
-.NavItem:hover {
-    transition:0.3s;
-    background-color: black;
-    cursor: pointer;
-}
-
-.IntroductionBanner {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    margin-top: 0%;
+textarea {
+    resize: none;
     width:100%;
-    height:40vw
-
+    height:8vw;
+    font-family: UbuntuMedium;
+    font-size: 1vw;
 }
 
-.IntroBannerText {
-    float: right;
-    font-size: 3vw;
-    color:white
+.submitButton {
+    text-decoration: none;
+    border: none;
+    cursor:pointer;
+    width:8vw;
+    height:3vw;
 }
 
-.PortfolioHeadshot {
-    width: 25vw;
-    border-radius: 5vw;
-    float: right;
-    margin-bottom:3%;
-    margin-right: 7%;
-    height: auto;
-}
-
-.Welcome {
-    width: 100%;
-    height: auto;
-}
-.Footer {
-    text-align: center;
-    background-color: rgb(25, 25, 25);
-    color: white;
-    font-size: 1.2vw;
+input, label {
+    font-family: UbuntuMedium;
+    width:50%;
+    font-size: 1vw;
 }
