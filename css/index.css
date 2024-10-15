@@ -182,11 +182,44 @@
     background-color: black;
 }
 
-.PortfolioImage {
-    width: 25vw;
-    height: auto;
+
+.PortfolioItem {
+    position: relative;
+    width:25%;
     float: left;
-    background-color: black;
+}
+
+.PortfolioImage {
+    display: block;
+    width:100%;
+    height: auto;
+}
+
+.PortfolioItemOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.2s;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.PortfolioItemDescription a {
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.PortfolioItemOverlay:hover {
+    opacity: 1;
 }
 
 .Footer {

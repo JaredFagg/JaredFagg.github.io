@@ -60,37 +60,42 @@
     cursor: pointer;
 }
 
-.IntroductionBanner {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    margin-top: 0%;
-    width:100%;
-    height:40vw
-
-}
-
-.IntroBannerText {
-    float: right;
-    font-size: 3vw;
-    color:white
-}
-
-.PortfolioHeadshot {
-    width: 25vw;
-    border-radius: 5vw;
-    float: right;
-    margin-bottom:3%;
-    margin-right: 7%;
-    height: auto;
-}
-
-.Welcome {
+.WelcomingGallery {
     width: 100%;
     height: auto;
 }
+
+.GalleryBackground {
+    position:relative;
+}
+
+.GalleryImage {
+    width:25%;
+    height: auto;
+    float: left;
+    opacity: 0.3;
+}
+
+.GalleryBanner {
+    position:Absolute;
+    width:100%;
+    height:14.1vw;
+    top:25.6vw;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.BannerHeading {
+    margin: 0%;
+    padding:1vw;
+    font-size: 5vw;
+}
+
+.BannerSlogan {
+    margin: 0%;
+    padding:0.5vw 1vw 1vw 1.5vw;
+    font-size: 1vw;
+}
+
 .Footer {
     text-align: center;
     background-color: rgb(25, 25, 25);
