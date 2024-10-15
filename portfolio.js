@@ -1,3 +1,5 @@
+/* Shuffle Image Banner Gallery */
+
 ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 galleryimages = [ 
     "imgs/Portfolio/showcase/1.png",
@@ -24,10 +26,39 @@ function shuffleImages(array) {
     }
 }
 
-
 shuffleImages(galleryimages)
-
 
 for (let i = 0; i < ids.length; i++) {
     document.getElementById(ids[i]).src = galleryimages[i];
+}
+
+/* Drive Functionality Behind Slideshows */
+ItemIndex = [1,1,1];
+
+ItemGroupID = ["Killometers", "Subway", "Maze"];
+DisplayItemImage(1, 0);
+DisplayItemImage(1, 1);
+DisplayItemImage(1, 2);
+
+function ChangeSlide(direction, ItemGroup) {
+    DisplayItemImage(ItemIndex[ItemGroup] += direction, ItemGroup);
+}
+
+function DisplayItemImage(ItemID, ItemGroup) {
+    let index;
+    let ItemGallery = document.getElementsByClassName(ItemGroupID[ItemGroup]);
+    if (ItemID > ItemGallery.length) {
+        ItemIndex[ItemGroup] = 1
+    }
+
+    if (ItemID < 1) {
+        ItemIndex[ItemGroup] = ItemGallery.length;
+    }
+
+    for(index = 0; index < ItemGallery.length; index++) {
+        ItemGallery[index].style.display = "none";
+    }
+
+    ItemGallery[ItemIndex[ItemGroup]-1].style.display = "block"
+
 }

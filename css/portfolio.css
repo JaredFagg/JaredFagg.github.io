@@ -81,7 +81,7 @@
     width:100%;
     height:14.1vw;
     top:25.6vw;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .BannerHeading {
@@ -92,8 +92,154 @@
 
 .BannerSlogan {
     margin: 0%;
-    padding:0.5vw 1vw 1vw 1.5vw;
+    padding:1.5vw 1vw 1vw 1.5vw;
     font-size: 1vw;
+}
+
+.LeftTextContentPanel {
+    width: 100%;
+    height: auto;
+}
+
+.LeftTextLeftPanel {
+    width:50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float: left;
+    background-color: black;
+    /* fix to centering content.... Idk how it works but it does... Sorry. (Also keeps it responsive so all is well!*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.LeftTextLeftPanelContent {
+    padding: 3vw;
+    text-align: left;
+}
+
+.LeftTextRightPanel {
+    width: 50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float:right;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LeftTextRightPanelContent {
+    padding: 2vw;
+}
+
+.LeftTextContentPanel {
+    width: 100%;
+    height: auto;
+}
+
+.RightTextLeftPanel {
+    width:50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float: left;
+    background-color: rgb(25, 25, 25);
+
+}
+
+.RightTextLeftPanelContent {
+    padding: 3vw;
+    text-align: left;
+}
+
+.RightTextRightPanel {
+    width: 50%;
+    height: 40vw;
+    margin-bottom:1.5vw;
+    float:right;
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    /* fix to centering content.... Idk how it works but it does... Sorry. (Also keeps it responsive so all is well!*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.RightTextRightPanelContent {
+    padding: 2vw;
+}
+
+.SingleImage {
+    width: 40vw;
+    border-radius: 1vw;
+    float: right;
+    /* automatic alignment is not recommended! but works so who cares */
+    margin-top:15%;
+    margin-right: 5%;
+    height: auto;
+}
+
+.ItemContainer {
+    position: relative;
+}
+
+.Killometers {
+    position: relative;
+}
+
+.Subway {
+    position: relative;
+}
+
+.Maze {
+    position: relative;
+}
+
+.ItemText {
+    position: absolute;
+    top: 25.7vw;
+    left:6.5vw;
+    padding-top: 0.5vw;
+    border-radius: 0.5vw;
+    padding-bottom: 0.5vw;
+
+    width:75%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.LeftItemText {
+    position: absolute;
+    top: 26.2vw;
+    left:8.5vw;
+    padding-top: 0.5vw;
+    border-radius: 0.5vw;
+    padding-bottom: 0.5vw;
+    width:75%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.PreviousItem {
+    position: absolute;
+    cursor:pointer;
+    top: 17vw;
+}
+
+.LeftPreviousItem {
+    position: absolute;
+    cursor:pointer;
+    top: 17vw;
+    left:5.8vw;
+}
+
+.NextItem {
+    position: absolute;
+    cursor:pointer;
+    top: 17vw;
+    right:1vw;
 }
 
 .Footer {
