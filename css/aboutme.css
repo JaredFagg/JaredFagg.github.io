@@ -1,3 +1,7 @@
+html, body {
+    background-color: black;
+}
+
 .NameBar {
     background-color: rgb(25, 25, 25);
     color: white;
@@ -148,7 +152,7 @@
 
 .Footer {
     text-align: center;
-    background-color: rgb(25, 25, 25);
+    background-color: black;
     color: white;
     font-size: 1.2vw;
 }
