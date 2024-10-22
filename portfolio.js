@@ -33,13 +33,17 @@ for (let i = 0; i < ids.length; i++) {
 }
 
 /* Drive Functionality Behind Slideshows */
-ItemIndex = [1,1,1,1];
+ItemIndex = [1,1,1,1,1,1,1,1];
 
-ItemGroupID = ["Killometers", "Subway", "Maze", "Amenthes"];
+ItemGroupID = ["Killometers", "Subway", "Maze", "Amenthes", "pixelbar", "kasset", "autumn", "wizard"];
 DisplayItemImage(1, 0);
 DisplayItemImage(1, 1);
 DisplayItemImage(1, 2);
 DisplayItemImage(1, 3);
+DisplayItemImage(1, 4);
+DisplayItemImage(1, 5);
+DisplayItemImage(1, 6);
+DisplayItemImage(1, 7);
 
 function ChangeSlide(direction, ItemGroup) {
     DisplayItemImage(ItemIndex[ItemGroup] += direction, ItemGroup);

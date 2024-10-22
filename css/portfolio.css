@@ -201,6 +201,14 @@
     position: relative;
 }
 
+.pixelbar {
+    position: relative;
+}
+
+.wizard {
+    position: relative;
+}
+
 .ItemText {
     position: absolute;
     top: 25.7vw;
@@ -248,7 +256,10 @@
 
 .Footer {
     text-align: center;
-    background-color: rgb(25, 25, 25);
-    color: white;
+    background-color:black;
     font-size: 1.2vw;
+}
+
+html, body {
+    background-color: black;
 }
